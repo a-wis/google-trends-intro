@@ -2,7 +2,7 @@
 title: "Google Trends data"
 author: "Arkadiusz Wi&#347;niowski"
 output: html_document
-date: "17-09-2025"
+date: "2025-09-17"
 ---
 
 ```{r setup, include=FALSE}
@@ -56,13 +56,13 @@ channel='web'
 ```
 
 # Use `gtrendsR` to collect the data
-```{r eval=TRUE}
+```{r eval=FALSE}
 trend_data = gtrends(keyword, gprop = channel, geo = geo_area, time = time_period)
 ```
 
-<!-- ```{r echo=F} -->
-<!-- load("trend_data.RData") -->
-<!-- ``` -->
+```{r echo=F}
+load("C:/Users/msassaw5/OneDrive - The University of Manchester/Documents/GitHub/trend_data.RData")
+```
 
 # Results
 ## data over time
