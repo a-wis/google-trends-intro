@@ -2,7 +2,7 @@
 title: "Google Trends data"
 author: "Arkadiusz Wi&#347;niowski"
 output: html_document
-date: "17 September 2025"
+date: "17/09/2025"
 ---
 
 ```{r setup, include=FALSE}
