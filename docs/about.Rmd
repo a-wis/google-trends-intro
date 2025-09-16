@@ -1,10 +1,19 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website
+  Additional details about the website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## google-trends-intro
+
+Author: [Arkadiusz Wiśniowski](https://www.research.manchester.ac.uk/portal/a.wisniowski.html)
+
+
+This repository contains code for introducing `gtrendsR` R package for obtaining data from [Google Trends](https://trends.google.co.uk/trends/).
+
+
+Note: when `gtrends()` function is called multiple times, Google may stop responding (Status code 429). Please wait for some time, try from a computer in another location or change details of the query.
